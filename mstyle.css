@@ -1,0 +1,44 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing:border-box;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+}
+
+header{
+  display: flex;
+  width: 90%;
+  margin: auto;  
+}
+
+.logo-container{
+  
+    margin: auto;
+    background-color: lightblue;
+    flex: 1;
+}
+nav{
+    flex: 2;
+
+}
+
+.logo-container, .nav-links{
+    display: flex;
+}
+
+
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    color: grey;
+    font-size: 18px;
+    text-decoration: none;
+
+}
